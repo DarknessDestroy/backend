@@ -4,8 +4,9 @@ default: &default
   # Настройки пула соединений
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: postgres
-  password: A28v07r08a28
+  password: Sevastopol123!
   host: localhost
+  port: 5433
 
 development:
   <<: *default
